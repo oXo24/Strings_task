@@ -9,5 +9,21 @@ public class Main {
         String[] data = {"brange", "plum", "tomato", "onibn", "grape"};
         return data;
     }
+    private static String getData(String[] items) {
+
+        StringBuilder stringBuilder = new StringBuilder();
+        int count = 0;
+
+        for (String name : items) {
+            count++;
+            stringBuilder
+                    .append(count)
+                    .append(") ")
+                    .append(name)
+                    .append("\n");
+        }
+
+        return stringBuilder.toString();
+    }
 }
 
