@@ -6,4 +6,9 @@ public class Main {
 
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
 
+    private  static void main(String[] args) {
+
+    }
+
+
 }
