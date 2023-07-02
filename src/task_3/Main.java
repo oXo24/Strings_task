@@ -41,7 +41,7 @@ public class Main {
                 .append(input)
                 .append("] was found ")
                 .append(cnt)
-                .append(" times");b
+                .append(" times");
 
         return sb.toString();
     }
