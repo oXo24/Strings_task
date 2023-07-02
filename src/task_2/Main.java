@@ -8,7 +8,8 @@ public class Main {
 
     private static final String exception = "onion";
 
-    private  static void main(String[] args) {
+    public static void main(String[] args) {
+        LOGGER.info("\n" + processData(providedData()));
 
     }
 
@@ -21,7 +22,7 @@ public class Main {
 
         StringBuilder sb = new StringBuilder();
         int cnt = 1;
-        for (String name: data) {
+        for (String name : data) {
             if (!name.equalsIgnoreCase(exception)) {
                 sb.append(cnt++)
                         .append(") ")
