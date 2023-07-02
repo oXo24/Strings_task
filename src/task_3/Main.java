@@ -23,6 +23,29 @@ public class Main {
         return result;
     }
 
+    private static String formAnswer() {
+
+        System.out.println("Enter name: ");
+        StringBuilder sb = new StringBuilder();
+        int cnt = 0;
+        String input = dataIn();
+        for (String name : providedData()) {
+            if (name.equalsIgnoreCase(input)) {
+                cnt++;
+            }
+        }
+        if (cnt == 0) {
+            throw new NoSuchElementException("There is no such name in the list");
+        }
+        sb.append("Name: [")
+                .append(input)
+                .append("] was found")
+                .append(cnt)
+                .append(" times");
+
+        return sb.toString();
+    }
+
 
 
 }
