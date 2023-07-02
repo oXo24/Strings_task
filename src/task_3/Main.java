@@ -17,4 +17,12 @@ public class Main {
         return data;
     }
 
+    private static String dataIn() {
+        Scanner scanner = new Scanner(System.in);
+        String result = scanner.nextLine().trim();
+        return result;
+    }
+
+
+
 }
