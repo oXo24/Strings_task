@@ -10,5 +10,10 @@ public class Main {
 
     }
 
+    private static String[] providedData() {
+        String[] data = {"orange", "plum", "tomato", "onion", "grape", "onion"};
+        return data;
+    }
+
 
 }
