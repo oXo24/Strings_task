@@ -12,4 +12,9 @@ public class Main {
 
     }
 
+    private static String[] providedData() {
+        String[] data = {"Bob", "Alice", "Tom", "Lucy", "Bob", "Lisa"};
+        return data;
+    }
+
 }
