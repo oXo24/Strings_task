@@ -39,9 +39,9 @@ public class Main {
         }
         sb.append("Name: [")
                 .append(input)
-                .append("] was found")
+                .append("] was found ")
                 .append(cnt)
-                .append(" times");
+                .append(" times");b
 
         return sb.toString();
     }
