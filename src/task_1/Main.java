@@ -25,5 +25,14 @@ public class Main {
 
         return stringBuilder.toString();
     }
+
+    private static String correctData(String data) {
+        String fixedString = data.replace("b", "o");
+        return fixedString;
+    }
+
+    private static void getOutput(String output) {
+        System.out.println(output);
+    }
 }
 
